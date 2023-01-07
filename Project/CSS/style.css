@@ -1,5 +1,4 @@
 .header{
-    font-family: 'Inter', sans-serif;
     background-color: #0A0A0A;
 }
 
@@ -13,11 +12,12 @@
 
 .header__menu{
     display: flex;
-    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .header__menu--items + .header__menu--items{
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .header__menu--link{
@@ -27,10 +27,29 @@
     color: #717171;
 }  
 
+.header__logo{
+    padding-left: 220px;
+}
+
 .header__number{
-    
+    text-align: right;
+    flex-grow: 1;
+    flex-basis: 0;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     color: #717171;
+}
+
+.headline{
+    display: flex;
+    align-items: center;
+    padding-top: 71px;
+}
+
+.headline__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #490E84;
 }
