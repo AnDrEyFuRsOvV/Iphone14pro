@@ -42,14 +42,32 @@
 }
 
 .headline{
-    display: flex;
-    align-items: center;
-    padding-top: 71px;
+    text-align: center;
+    padding: 71px 0 40px;
 }
 
 .headline__title{
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
     color: #490E84;
+    margin: 0 0 40px;
+}
+
+.headline__img{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.headline__btn{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #490E84;
+    padding: 22px 117px 19px;
+    border-radius: 30px;
 }
