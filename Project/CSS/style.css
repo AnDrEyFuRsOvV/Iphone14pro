@@ -28,14 +28,7 @@
     font-size: 24px;
     line-height: 29px;
     color: #717171;
-    transition: .5s;
 }  
-
-.header__menu--link:hover{
-    border-radius: 30px;
-    padding: 20px;
-    background-color: #F5F5F7;
-}
 
 .header__number{
     text-align: right;
@@ -78,13 +71,6 @@
     padding: 22px 117px 19px;
     border-radius: 30px;
     cursor: pointer;
-    transition: .5s;
-}
-
-.headline__btn:hover{
-    padding: 27px 122px 24px;
-    margin-left: 20px;
-    background: red;
 }
 
 .news{  
@@ -229,5 +215,6 @@
     padding: 50px 0;
 }
 
-
+@media (max-width: 1000px){
+}
 
