@@ -10,10 +10,13 @@
     padding-bottom: 32px;
 }
 
-.header__menu{
-    display: flex;
-    flex-grow: 1;
+.header__nav{
     flex-basis: 0;
+    flex-grow: 1;
+}
+
+.header__menu{
+    display: flex; 
 }
 
 .header__menu--items + .header__menu--items{
@@ -34,14 +37,10 @@
     background-color: #F5F5F7;
 }
 
-.header__logo{
-    padding-left: 220px;
-}
-
 .header__number{
     text-align: right;
-    flex-grow: 1;
     flex-basis: 0;
+    flex-grow: 1;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -214,6 +213,12 @@
 
 .footer{
     background-color: #0A0A0A;
+    align-items: center;
+}
+
+.footer-link{
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 .footer__inner{
